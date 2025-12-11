@@ -60,6 +60,13 @@ p {
 	line-height: 1.6;
 	font-weight: 500;
 }
+.p_slide{
+	font-size: 20px;
+	color: rgb(255, 255, 255);
+	margin-bottom: 40px;
+	font-weight: bold;
+	opacity: 1;
+}
 
 img {
 	max-width: 100%;
@@ -303,7 +310,10 @@ ol {
 	font-size: 16px;
 	padding-top: 4px;
 }
-
+.navbarcontent{
+	justify-items: center;
+	padding-top: 40px;
+}
 .header-social a,
 .footer-social a,
 .geme-social-share a {
@@ -336,7 +346,10 @@ ol {
 
 .header-bar-warp{
 	background: #081624;
-	padding: 39px 40px 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
 	-webkit-box-shadow: 0 0 9px 3px rgba(226, 30, 228, 0.24);
 	box-shadow: 0 0 9px 3px rgba(226, 30, 228, 0.24);
 	align-items: center;
@@ -344,7 +357,6 @@ ol {
 
 .site-logo {
 	align-self: center;
-	margin-bottom: 35px;
 }
 
 .user-panel {
@@ -352,6 +364,7 @@ ol {
 	font-size: 16px;
 	font-weight: 500;
 	color: #fff;
+	padding-top: 40px;
 }
 
 .user-panel a {
@@ -365,6 +378,7 @@ ol {
 .main-menu {
 	list-style: none;
 	text-align: center;
+	padding-top: 3px;
 }
 
 .main-menu li {
@@ -851,8 +865,16 @@ ol {
 -----------------------*/
 
 .intro-video-section {
-	height: 757px;
+	height: 50rem;
 	position: relative;
+}
+.videotitle{
+	padding: 20px;
+	background-image: url("../img/darkred.jpg");
+	background-position: center;
+	background-size: cover;
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	-webkit-text-fill-color: whitesmoke;
 }
 
 .video-play-btn {
@@ -1026,20 +1048,24 @@ ol {
 
 .footer-left-pic {
 	position: absolute;
-	left: -13px;
+	left: 50px;
 	bottom: 19px;
 }
 
 .footer-right-pic {
 	position: absolute;
-	right: 50px;
-	height:30px;
 	bottom: 19px;
+	right: 50px;
+}
+.footer-left-style{
+	height:24rem;
 }
 .footer-right-style{
-	height:30px;
+	height:24rem;
 }
-
+.logofooter{
+	margin-top: 10px;
+}
 
 .footer-menu {
 	padding-top: 62px;
@@ -1081,6 +1107,11 @@ ol {
 .page-top-section {
 	height: 355px;
 	padding-top: 210px;
+	background-size:cover;
+	background-position: center;
+	background-image: url("../img/elden.jpg");
+}
+.page-top-back{
 }
 
 .page-info {
@@ -1117,13 +1148,12 @@ ol {
 -----------------*/
 
 .games-section {
-	padding: 30px 0;
-	height: auto;
+	padding-top: 30px ;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#501755+0,2d1854+100 */
 	background: #501755;
 	/* Old browsers */
 	/* FF3.6-15 */
-	background: -webkit-linear-gradient(45deg, #501755 0%, #2d1854 100%);
+	background: -webkit-linear-gradient(45deg, #501755 0%, #53298e 100%);
 	/* Chrome10-25,Safari5.1-6 */
 	background: -o-linear-gradient(45deg, #501755 0%, #2d1854 100%);
 	background: linear-gradient(45deg, #501755 0%, #2d1854 100%);
@@ -1535,6 +1565,16 @@ ol {
 }
 
 /* ----------------
+  Custom Styles
+---------------------*/
+
+.p_slide{
+	font-size: 20px;
+	color: rgb(255, 255, 255);
+	margin-bottom: 40px;
+}
+
+/* ----------------
   Responsive
 ---------------------*/
 
@@ -1588,7 +1628,8 @@ ol {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	.header-bar-warp {
-		padding: 39px 15px 0;
+		padding-top: 10px;
+		padding-bottom: 10px;
 	}
 	.main-menu li a {
 		margin-right: 10px;
